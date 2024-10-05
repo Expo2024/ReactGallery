@@ -1,0 +1,104 @@
+:root{
+    --amarillo-c : #e1c066;
+    --marron-c : #4d3b29;
+}
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f0e6; /* Color de fondo suave */
+    color: var(--marron-c); /* Color marrón */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: var(--amarillo-c); /* Color amarillo */
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+header hr{
+    border: none; 
+    height: 5px; 
+    background-color: #333;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.Title{
+    font-size: 3em;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: center;
+}
+/*nav*/
+nav {
+    margin: 20px 0;
+    margin-bottom: 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/*pagina*/
+.container {
+    text-align: center;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+#welcome .img{
+    width: 300px;
+    height: 300px;
+}
+.upload_image {
+    color: white;
+    text-align: center;
+    background-color: var(--amarillo-c);
+    margin-bottom: 10px;
+}
+.welcome-message {
+    font-size: 3em;
+    margin: 20px 0;
+    margin-bottom: 0;
+}
+
+.MuiGrid2-root{
+    background-color: var(--amarillo-c);
+    display:flex;
+    justify-content:center;
+}
+    
+.Comparte{
+    font-size: 30px;
+}
+  
+/*footer*/
+footer {
+    background: var(--marron-c); /* Color marrón oscuro */
+    color: white;
+    padding: 10px 0;
+    margin-top: auto;
+    text-align: center;
+    
+}
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
